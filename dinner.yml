@@ -1,0 +1,39 @@
+proposal:
+  title: valentines_day_dinner
+  author: anguyen
+  reviewer: jzhong
+  business_justification: finding_a_reservation
+  logistics:
+    date: 20220214
+    start_time_minimum: 1730
+    start_time_maximum: 2000
+    end_time: undefined
+    location: new_york_city
+cuisine_options:
+  japanese:
+    - sushi
+    - udon
+    - ramen
+  chinese:
+    - peking_duck
+  american:
+    - seafood
+    - steak
+    - charcuterie
+    - cheese
+  italian:
+    - pizza
+    - pasta
+test_cases:
+  units:
+    - not_greasy
+    - not_kbbq
+    - not_fried
+    - not_sketchy
+    - not_heavy
+    - not_saucy
+    - not_salty
+    - not_hotpot
+    - not_sweet
+    - not_heavily_marinated_in_sweet_sauce
+    
